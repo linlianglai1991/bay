@@ -48,4 +48,3 @@ teacher_data = {
 # 发送添加教师请求
 r2 = requests.post(url=add_teacher_url, data=teacher_data, headers=headers)
 
-print(r2.text)
